@@ -2,7 +2,7 @@
 
 <p>BjornDB is a JVM based KV Database, which is fast and thread-safe. BjornDB is 20x faster for reads and 10x faster for writes than Bitcask, which has a similar architecture.<p></p>
 
-<p>BjornDB adopts a hash-based design, deliberately ignoring range queries to prioritize throughput and latency. As a result, it is about 100x faster at writes than LevelDB (Google) and RocksDB (Facebook).</p>
+<p>BjornDB adopts a hash-based design, deliberately ignoring range queries to prioritize throughput and latency. As a result, it is faster at writes than LevelDB (Google) and RocksDB (Facebook).</p>
 
 BjornDB is designed with educated tradeoffs to achieve high performance:
 
@@ -24,3 +24,11 @@ Benchmarks
     memory: 1GB
     key-size: 8 bytes
     value-size: 100 bytes
+
+Potential Improvements
+-----
+<hr>
+
+Add delete Key
+
+will add new improvements or additional functionalities in future
